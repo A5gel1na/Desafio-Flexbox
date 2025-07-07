@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cxtex1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px rgb(171, 169, 169) solid;
+    padding: 20px;
+    margin: 0 200px 50px 200px;
+    gap: 20px;
+}
+
+.caixa-dentro1{
+    background-color: rgb(69, 106, 150);
+    border: 1px solid rgb(152, 219, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+.caixa-dentro2{
+    padding: 17px;
+    font-size: 30px;
+}
+
+.caixa-a{
+    color: white; 
+    text-decoration: none;
+}
+
+.cxtex2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 200px;
+}
+
+.caixa-dentro3{
+    width: 50vw;
+    height: 52vh;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.cxtex3{
+    display: flex;
+    margin: 70px auto;
+    border: 2px rgb(171, 169, 169) solid;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 40%;
+    gap: 20px;
+}
+
+.caixa-vh{
+    display: flex;
+    background-color: rgb(171, 169, 169);
+    list-style-type: none;
+    width: 7vw;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cxtex4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
