@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 .cxtex1{
     display: flex;
@@ -57,12 +58,12 @@ body{
 
 .caixa-vh{
     display: flex;
-    background-color: rgb(171, 169, 169);
+    background-color: rgb(118, 116, 116);
     list-style-type: none;
     width: 7vw;
     font-size: 30px;
     color: white;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     
 }
@@ -71,4 +72,91 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
+    justify-content: center;
+}
+
+.cxtex5{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.caixa-ul5{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+
+.caixa-darkcinza{
+    background-color: rgb(118, 116, 116);
+    width: 20vw;
+    height: 10vh;
+}
+
+.caixa-cinza{
+    background-color: rgb(214, 214, 214);
+    width: 20vw;
+    height: 60vh;
+}
+
+.cxtex6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(118, 116, 116);
+    width: 100%;
+    height: 12vh;
+    min-width: 250px;
+    padding: 0;
+}
+
+.caixa-menu{
+    display: flex;
+    border: 1px white solid;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    flex-basis: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-cx6{
+    background-color: black;
+    height: 15vh;
+    margin: 70px auto;
+}
+
+.ul-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+}
+
+.li-footer{
+    align-items: center;
+    display: flex;
+    border:1px white solid;
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    flex-basis: 400px;
+    height: 5vh;
+}
+
+.cxtex7{
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-cx7{
+    background-color: rgb(118, 116, 116);
+    color: white;
+    font-size: 20px;
+    padding-left: 5px ;
 }
