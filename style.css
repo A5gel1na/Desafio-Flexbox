@@ -1,3 +1,7 @@
+:root{
+    --gap-caixas: 5px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -148,23 +152,30 @@ body{
     height: 5vh;
 }
 
+
+.container-flex-03{
+    display: flex; 
+    gap: var(--gap-caixas);
+}
+
 .cxtex7{
-    gap: 7px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 60%;
 }
+
 
 .header-cx7{
     background-color: rgb(118, 116, 116);
     color: white;
     font-size: 20px;
     padding-left: 5px;
+    margin-bottom: var(--gap-caixas);
+    flex-grow: 1;
 }
 
-.cx-menu{
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
+.cx-menu{   
     width: 40%;
     height: 60vh;
 }
