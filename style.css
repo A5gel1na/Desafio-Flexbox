@@ -9,7 +9,6 @@ body{
     border: 2px rgb(171, 169, 169) solid;
     padding: 20px;
     margin: 0 200px 50px 200px;
-    gap: 20px;
 }
 
 .caixa-dentro1{
@@ -108,6 +107,7 @@ body{
     background-color: rgb(118, 116, 116);
     width: 100%;
     height: 12vh;
+    margin: 80px auto;
     min-width: 250px;
     padding: 0;
 }
@@ -158,5 +158,19 @@ body{
     background-color: rgb(118, 116, 116);
     color: white;
     font-size: 20px;
-    padding-left: 5px ;
+    padding-left: 5px;
+}
+
+.cx-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 40%;
+    height: 60vh;
+}
+
+.div-column{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
